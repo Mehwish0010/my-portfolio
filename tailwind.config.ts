@@ -7,7 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: {backgroundImage: {
+      'mask-image': "url('your-mask-image-url.png')", // Replace with your actual image URL
+    },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
